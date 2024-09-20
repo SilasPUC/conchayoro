@@ -1,6 +1,6 @@
 name: steps examples
 on:
-  push
+  workflow_dispatch
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
